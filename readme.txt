@@ -1,7 +1,7 @@
 Projet réalisé par
 Shiva
 Safwan
-Thierry
+Thierry pivert
 Alexandre
 Djabrail
 Quentin
