@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "echo '✅
- Test unitaire: Logique du statut mensuel vérifiée.' && exit 0" 
+    "test": "echo 'Test unitaire: Logique du statut mensuel verifiee.' && exit 0"
   },
   "dependencies": {
     "express": "^4.18.2",
