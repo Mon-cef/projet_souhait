@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Mes Souhaits - DevOps</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <header>
+        <h1>Application Qui Réaliser Vos Souhaits 🚀</h1>
+        <p>Fixez vos objectifs mensuels et suivez votre progression.</p>
+    </header>
+
+    <main>
+        <section id="status-rappel">
+            <h2>Statut Mensuel (Rappel de Progression)</h2>
+            <div id="rappel-message">
+                Chargement du statut...
+            </div>
+        </section>
+
+        <section id="ajout-souhait">
+            <h2>Ajouter un Nouvel Objectif</h2>
+            <form id="form-souhait">
+                <input type="text" id="titre-souhait" placeholder="Titre de votre souhait" required>
+                <select id="mois-souhait" required>
+                    <option value="">Sélectionnez le mois</option>
+                    <option value="Janvier">Janvier</option>
+                    <option value="Février">Février</option>
+                    <option value="Mars">Mars</option>
+                    <option value="Avril">Avril</option>
+                    <option value="Mai">Mai</option>
+                    <option value="Juin">Juin</option>
+                    <option value="Juillet">Juillet</option>
+                    <option value="Août">Août</option>
+                    <option value="Septembre">Septembre</option>
+                    <option value="Octobre">Octobre</option>
+                    <option value="Novembre">Novembre</option>
+                    <option value="Décembre">Décembre</option>
+                </select>
+                <button type="submit">Ajouter Souhait</button>
+            </form>
+        </section>
+
+        <section id="liste-souhaits">
+            <h2>Liste des Objectifs et Souhaits</h2>
+            <ul id="souhaits-list-container">
+                </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>Projet DevOps - Application Réaliser Vos Souhaits</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
